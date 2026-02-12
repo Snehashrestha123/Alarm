@@ -28,7 +28,7 @@ addAlarmBtn.addEventListener("click", () => {
     time: `${hour}:${minute}`,
     active: true,
     triggered: false
-  };
+  }; 
 
   alarms.push(alarm);
   renderAlarms();
